@@ -1,0 +1,44 @@
+# Rime schema
+# encoding: utf-8
+#
+# TODO:
+#   1. Add alveolar-palatal
+#   2. Add diacrites
+#   3. Add non-pulmonic consonants
+#   4. Add other symbols
+#
+
+schema:
+  schema_id: sipa
+  name: Semantic IPA
+  version: "0.0.5"
+  author:
+    - mkpoli <mkpoli@vip.qq.com>
+  description: |
+    IPA input method in Semantic IPA.
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba_<>\`~."%'':@{}1234567890&?!^|=-+/'
+  delimiter: ' '
+
+translator:
+  dictionary: sipa

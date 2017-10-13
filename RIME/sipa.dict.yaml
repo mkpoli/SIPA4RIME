@@ -1,0 +1,208 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# IPA input method in Semantic IPA.
+#
+# Table author:
+#  - mkpoli <mkpoli@vip.qq.com>
+#
+
+---
+name: sipa
+version: "0.0.5"
+sort: original
+...
+
+# Consonants (Pulmonic)
+## Plosive
+p	bp
+b	bpv
+t	ap
+d	apv
+ʈ	rp
+ɖ	rpv
+c	pp
+ɟ	ppv
+k	vp
+g	vpv
+q	up
+ɢ	upv
+ʔ	gp
+
+## Nasal
+m	bn
+ɱ	ln
+n	an
+ɳ	rn
+ɲ	pn
+ŋ	vn
+ɴ	un
+
+## Trill
+ʙ	br
+r	ar
+ʀ	ur
+
+## Tap or Flap
+ⱱ	lt
+ɾ	at
+ɽ	rt
+
+## Fricative
+ɸ	bf
+β	bfv
+f	lf
+v	lfv
+θ	df
+ð	dfv
+s	af
+z	afv
+ʃ	of
+ʒ	ofv
+ʂ	rf
+ʐ	rfv
+ç	pf
+ʝ	pfv
+x	vf
+ɣ	vfv
+χ	uf
+ʁ	ufv
+ħ	hf
+ʕ	hfv
+h	gf
+ɦ	gfv
+
+## Lateral Fricative
+ɬ	alf
+ɮ	alfv
+
+## Approximent
+ʋ	la
+ɹ	aa
+ɻ	ra
+j	pa
+ɰ	va
+
+## Lateral Approximent
+l	al
+ɭ	rl
+ʎ	pl
+ʟ	vl
+
+## TODO: Affricate
+p͡f	laf
+b͡v	lafv
+t͡θ	daf
+d͡ð	dafv
+t͡s	aaf
+d͡z	aafv
+t͡ʃ	oaf
+d͡ʒ	oafv
+ʈ͡ʂ	raf
+ɖ͡ʐ	rafv
+
+## Linguolabial consonants
+n̼	lln
+m̺	lln
+t̼	llp
+p̺	llp
+d̼	llpv
+b̺	llpv
+θ̼	llf
+ɸ̺	llf
+ð̼	llfv
+β̺	llfv
+l̼	lll
+ɬ̼	lllf
+ɮ̼	lllfv
+r̼	llr
+ʙ̺	llr
+# TODO: Linguolabial clicks
+
+# Vowels
+## Front
+i	fc
+y	fcr
+ɪ	fc'
+ʏ	fc'r
+e	fcm
+ø	fcmr
+ɛ	fom
+œ	fomr
+æ	fo'
+a	fo
+ɶ	for
+
+## Central
+ɨ	cc
+ʉ	ccr
+ɘ	ccm
+ɵ	ccmr
+ə	cm
+ɜ	com
+ɞ	comr
+ɐ	co'
+
+## Back
+ɯ	bc
+u	bcr
+ʊ	bc'r
+ɤ	bcm
+o	bcmr
+ʌ	bom
+ɔ bomr	
+ɑ	bo
+ɒ	bor
+
+# Other Symbols
+ʍ	lvf
+w	lva
+ɥ	lpa
+ʜ	ef
+ʢ	efv
+ʡ	ep
+ɕ	apf
+ʑ	apfv
+ɺ	alt
+ɧ	of+vf
+͡	+
+͜	+
+
+# Diacritics
+## Superscript
+ʰ	^gf
+ʷ	^lva
+ʲ	^pa
+ˠ	^vfv
+ˤ	^hfv
+ⁿ	^an
+ˡ	^al
+̚		^ktp
+ʱ	^gfv
+
+# Other
+̥	v-
+̬	v+
+̹	r+
+̜	r-
+̟	f+
+̠	f-
+̈	c+
+̽	mc+
+̩	s+
+̯	s-
+˞	+r
+̤	^gfv
+̰	cv+
+# ◌̼  is not counted here.
+̴	^vfv
+̴	^hfv
+̝	h+
+̞	h-
+̘	t+
+̙	t-
+̪	d+
+̺	a+
+̻	l+
+̃	n+
+̚	^app
