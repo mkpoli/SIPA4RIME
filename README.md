@@ -29,7 +29,7 @@ Semanticize IPA input method.
 | -------- |:-----:| ------- |
 | backness | Required | Backness of vowel. See [the table](#backness) below. |
 | height   | Required | Height of vowel. See [the table](#height) below. |
-| voiced?  | Optional  | Decide if it is a rounded vowel. |
+| rounded?  | Optional  | Decide if it is a rounded vowel. |
 
 ## For diacritics
 
